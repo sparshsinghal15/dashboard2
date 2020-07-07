@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    margin: 10%;
+    margin-top: 5vmin;
+}
+.item{
+    background-color: rgba(0, 186, 243, 0.397);
+    border-radius: 3%;
+    margin-bottom: 1.7vmin;
+}
+p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+img {
+    transform: scale(1.5);
+    margin-top: 0vmin;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#name {
+    font-size: 3.3vmin;
+    font-weight: 300;
+    margin-bottom: 0.5vmin;
+}
+#college, #phone, #submission {
+    font-weight: 100;
+}
+#submission {
+    display: inline-block;
+}
+a:link {
+    color: rgb(197, 217, 255);
+}
+i {
+    margin-right: 1vmin;
+}
+h1 {
+    font-family: 'Merienda One', cursive;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-size: 45px;
+    /* font-weight: bold; */
+}
